@@ -1,0 +1,10 @@
+.woocommerce-account .woocommerce-MyAccount-navigation {
+    float: left;
+}
+.woocommerce-account .woocommerce-MyAccount-content {
+    float: right;
+}
+.form-container .img-container {
+    width: 99px !important;
+    height: 99px !important;
+}

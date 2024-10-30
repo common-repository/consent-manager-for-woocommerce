@@ -1,0 +1,13 @@
+.woocommerce-account .woocommerce-MyAccount-navigation {
+    float: left;
+}
+.woocommerce-account .woocommerce-MyAccount-content {
+    float: right;
+}
+.form-container input[name="child_photo"], .form-container input[name="adult_photo"] {
+    display: contents;
+}
+.input-group-btn>.btn {
+    height: auto !important;
+}
+

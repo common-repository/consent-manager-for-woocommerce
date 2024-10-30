@@ -1,0 +1,13 @@
+.bs-wizard > .bs-wizard-step > .progress {
+    margin: 21px 0 !important;
+}
+.bs-wizard > .bs-wizard-step:first-child > .progress {
+    width: 100% !important;
+}
+.bs-wizard > .bs-wizard-step:nth-child(2) > .progress {
+    width: 100%;
+}
+.bs-wizard > .bs-wizard-step:last-child .bs-wizard-info {
+    float: left;
+    width: 100%;
+}

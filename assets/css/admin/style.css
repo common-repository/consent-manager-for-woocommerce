@@ -1,0 +1,106 @@
+#sort_by_number {
+  cursor: pointer;
+}
+#sort_by_number::after {
+  content: "\f142";
+  font: 400 20px/1 dashicons;
+  display: inline-block;
+  padding: 0;
+  top: 4px;
+  left: 0;
+  line-height: 10px;
+  position: relative;
+  vertical-align: top;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none !important;
+  color: #444;
+}
+#sort_by_number[data-value="asc"]::after {
+  content: "\f142" /* стрелка вверх */;
+}
+#sort_by_number[data-value="desc"]::after {
+  content: "\f140" /* стрелка вниз */;
+}
+
+.ajax_status {
+    display: block;
+    float: right;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.ajax_status .ajax_loader {
+    width: 20px;
+    background: url(../../images/admin/ajax-loader.gif) no-repeat 0 0;
+    background-size: 100% auto;
+    height: 20px;
+    display: none;
+}
+.ajax_status .ajax_success {
+    display: none;
+    color: green;
+    background: url(../../images/admin/ok.png) no-repeat scroll 0 0;
+    padding-left: 20px;
+    background-size: 16px 16px;
+}
+.ajax_status .ajax_error {
+    display: none;
+    color: red;
+    background: url(../../images/admin/close.png) no-repeat scroll 0 0;
+    background-size: 16px 16px;
+    padding-left: 20px;
+}
+
+.child_photo {
+    background: url(../../images/other_icons/photo.png) no-repeat scroll 0 0 / 100%;
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    margin-left: 20px;
+    position: relative;
+    top: 4px;
+    cursor: pointer;
+}
+#child_photo_modal img {
+    width: 100%;
+}
+.cm_hint {
+    display: inline-block;
+    cursor: pointer;
+    background: black;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 7px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.member-tabs {
+    margin-bottom: 20px;
+}
+.member-tabs::after {
+    display: block;
+    clear: both;
+    height: 1px;
+}
+.member-tabs ul {
+    list-style: none;
+    margin-left: 0;
+}
+.member-tabs ul li {
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+}
+.member-tabs ul li.active {
+    border-bottom: 2px solid #e6b1a6;
+}
+#download_reply_report {
+    clear: both;
+    margin: 20px 0;
+}
+#search {
+    width: 50%;
+    float: right;
+    margin-top: 40px;
+}
